@@ -3,9 +3,9 @@
 
 The algorithm implements two variations of this algorithm:
 
-a. The computation of each element of the output matrix happens in a thread.
+**a.** The computation of each element of the output matrix happens in a thread.
 
-b. The computation of each row of the output matrix happens in a thread.
+**b.** The computation of each row of the output matrix happens in a thread.
 
 The program should read two input matrices in a certain format as mentioned in the
 
@@ -19,13 +19,13 @@ algorithm.
 
 Conceptually, a merge sort works as follows:
 
-1) If the list is of length 0 or 1, then it is already sorted. Otherwise:
+**1)** If the list is of length 0 or 1, then it is already sorted. Otherwise:
 
-2) Divide the unsorted list into two sub-lists of about half the size.
+**2)** Divide the unsorted list into two sub-lists of about half the size.
 
-3) Sort each sub-list recursively by re-applying the merge sort.
+**3)** Sort each sub-list recursively by re-applying the merge sort.
 
-4) Merge the two sub-lists back into one sorted list.
+**4)** Merge the two sub-lists back into one sorted list.
 
 the program is implemented using Pthreads. Each time the list is divided;
 
