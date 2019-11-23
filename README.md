@@ -7,15 +7,11 @@ The algorithm implements two variations of this algorithm:
 
 **b.** The computation of each row of the output matrix happens in a thread.
 
-The program should read two input matrices in a certain format as mentioned in the
-
-&quot;matrix-readme.txt&quot; file associated with project (Output format is also mentioned).
+The program should read two input matrices in a certain format as mentioned in the &quot;matrix-readme.txt&quot; file associated with project (Output format is also mentioned).
 
 **2) Merge Sort**
 
-Merge sort is an O (n log n) comparison-based sorting algorithm. It is a divide and conquer
-
-algorithm.
+Merge sort is an O (n log n) comparison-based sorting algorithm. It is a divide and conquer algorithm.
 
 Conceptually, a merge sort works as follows:
 
@@ -27,8 +23,4 @@ Conceptually, a merge sort works as follows:
 
 **4)** Merge the two sub-lists back into one sorted list.
 
-the program is implemented using Pthreads. Each time the list is divided;
-
-two threads are created to do merge-sort on each half separately. This step is
-
-repeated recursively until each sub-list has only one element.
+the program is implemented using Pthreads. Each time the list is divided;two threads are created to do merge-sort on each half separately. This step is repeated recursively until each sub-list has only one element.
