@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1571943032 source:/media/mohamed/4AF20822F208153B/os labs /merge sort/main.cpp
+	<bits/stdc++.h>
+	<pthread.h>
+
+1572082591 source:/media/mohamed/4AF20822F208153B/os labs /lab2 os/merge sort/main.cpp
+	<bits/stdc++.h>
+	<pthread.h>
+

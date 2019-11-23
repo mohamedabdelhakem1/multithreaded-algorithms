@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1571936716 source:/media/mohamed/4AF20822F208153B/os labs /lab 2 multithreading/main.cpp
+	<bits/stdc++.h>
+	<pthread.h>
+
+1572089696 source:/media/mohamed/4AF20822F208153B/os labs /lab2 os/matrix multiplication/main.cpp
+	<bits/stdc++.h>
+	<pthread.h>
+
